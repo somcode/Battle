@@ -22,11 +22,4 @@ require 'player'
      end
    end
 
-   describe "#attack" do
-     it 'damage the player' do
-       expect(mittens).to receive(:receive_damage)
-       dave.attack(mittens)
-     end
-   end
-
  end
